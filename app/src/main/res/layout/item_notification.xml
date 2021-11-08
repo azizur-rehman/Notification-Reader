@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+    android:paddingVertical="4dp"
+    android:background="?selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Title"
+            android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Medium"
+        />
+
+
+        <TextView
+            android:paddingVertical="5dp"
+            android:id="@+id/itemTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Title"
+            android:textSize="9sp"
+            style="@style/TextAppearance.AppCompat.Small"
+            />
+
+        <TextView
+            android:paddingVertical="5dp"
+            android:id="@+id/itemSubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Title"
+            style="@style/TextAppearance.AppCompat.Small"
+            />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
